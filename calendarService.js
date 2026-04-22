@@ -7,6 +7,8 @@ const axios = require("axios");
 
 const CALENDAR_BASE = "https://www.googleapis.com/calendar/v3";
 
+
+
 /**
  * Get upcoming calendar events.
  * @param {string} accessToken - Token from Auth0 Token Vault
