@@ -36,6 +36,7 @@ router.post("/chat", checkJwt, async (req, res) => {
       return res.status(400).json({ error: "Message is required." });
     }
 
+    // The Message of status will too long !
     if (message.length > 2000) {
       return res.status(400).json({ error: "Message too long (max 2000 chars)." });
     }
@@ -93,5 +94,7 @@ router.get("/connections", checkJwt, async (req, res) => {
     res.status(500).json({ error: "Could not fetch connections." });
   }
 });
+
+// Module Be Include To be change it !
 
 module.exports = router;
