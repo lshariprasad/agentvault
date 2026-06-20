@@ -4,6 +4,7 @@
 // displays responses. Handles CIBA modal for high-risk actions.
 // ============================================================
 
+// This applcation Only use for the HACKTHON PURPOSE WITH ALL DOC
 import { useState, useRef, useEffect } from "react";
 import { useUser } from "@auth0/nextjs-auth0/client";
 import axios from "axios";
