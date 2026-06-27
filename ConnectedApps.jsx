@@ -5,6 +5,8 @@
 // Auth0 Token Vault — we never handle the OAuth ourselves.
 // ============================================================
 
+// Use It like you own It !
+
 import { useState, useEffect } from "react";
 import { useUser } from "@auth0/nextjs-auth0/client";
 import axios from "axios";
